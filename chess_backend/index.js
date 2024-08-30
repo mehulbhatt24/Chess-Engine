@@ -6,7 +6,7 @@ require('colors');
 
 const app = express();
 
-app.use(cors);
+app.use(cors());
 
 const server = app.listen(5000, () => {
     console.log("app listening on port 5000".green.underline);

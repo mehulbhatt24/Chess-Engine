@@ -1,0 +1,43 @@
+@media only screen and (max-width: 450px) {
+    .square {
+        height: 40px;
+        width: 40px;
+    }
+
+    .image svg {
+        height: 28px;
+        width: 28px;
+    }
+}
+
+@media only screen and (min-width: 450px) {
+    .square {
+        height: 50px;
+        width: 50px;
+    }
+
+    .image svg {
+        height: 35px;
+        width: 35px;
+    }
+}
+
+.black.square {
+    background-color: rgb(92, 74, 63);
+}
+
+.square.white {
+    background-color: rgb(247, 229, 140);
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+    width: inherit;
+}
+
+.square.highlight {
+    background-color: green;
+}
